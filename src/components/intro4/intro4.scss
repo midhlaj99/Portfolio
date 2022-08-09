@@ -1,0 +1,97 @@
+@import "../../global.scss";
+
+.contact-me {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .top {
+        h2 {
+            color: white;
+            margin-top: 5px;
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contact-box {
+            display: flex;
+            justify-content: center;
+            border: 1px solid #333;
+            border-radius: 10px;
+            height: 400px;
+            width: 70%;
+
+            .left {
+                flex: 1;
+                overflow: hidden;
+
+                @include mobile {
+                    display: none;
+                }
+
+                img {
+                    object-fit: cover;
+                }
+            }
+
+            .right {
+                flex: 1;
+
+                .contact-form {
+                    margin-top: 20px;
+                    height: 90%;
+                    display: flex;
+                    align-items: center;
+
+                    form {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    input {
+                        width: 50%;
+                        height: 30px;
+                        border: 1px solid black;
+                        margin: 10px 0px;
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+
+                    textarea {
+                        width: 50%;
+                        margin: 10px 0px;
+                        font-size: 14px;
+                        padding-left: 10px;
+                        border: 1px solid black;
+                    }
+
+                    button {
+                        border: none;
+                        padding: 10px 25px;
+                        background-color: #1c1c1c;
+                        color: white;
+                        font-weight: 500;
+                        border-radius: 10px;
+                        transition: all 1s ease;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #ed143d96;
+
+                          }
+                    }
+                }
+            }
+        }
+    }
+}

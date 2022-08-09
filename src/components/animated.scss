@@ -1,0 +1,52 @@
+.sqaure{
+    width: 60px;
+    height: 60px;
+    background-color: #4e6bff;
+    opacity: 0.7;
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    animation: sqaure 10s linear alternate infinite;
+
+    @keyframes sqaure {
+        100%{
+            transform: translate(100vw,100vh);
+        }
+    }
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ff7ae2;
+    opacity: 0.7;
+    position: absolute;
+    top: 40vh;
+    left: 0px;
+    animation: circle 15s linear alternate infinite;
+
+    @keyframes circle {
+        100%{
+            transform: translate(100vw,-50vh);
+        }
+    }
+}
+
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #b7ff70;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    animation: circlee 15s linear alternate infinite;
+
+    @keyframes circlee {
+        100%{
+            transform: translate(-80vw,-70vh);
+        }
+    }
+}
