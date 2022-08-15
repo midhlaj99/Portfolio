@@ -51,6 +51,26 @@
             font-size: 20px;
           }
         }
+
+        .btn-grp {
+          margin-top: 20px;
+
+          button {
+            border: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+          }
+          .btn-1 {
+            background-color: #F77457;
+          }
+
+          .btn-2 {
+            background-color: #45B4FF;
+            margin-left: 10px;
+          }
+        }
       }
     }
   }

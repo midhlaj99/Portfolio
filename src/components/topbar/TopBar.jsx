@@ -10,7 +10,7 @@ function TopBar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <h3 className="logo">
-            MJ
+            Logo
           </h3>
           <div className="itemContainer">
             <Call className="icon" />
@@ -18,7 +18,7 @@ function TopBar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <a href="mailto:midhlaj@gmail.com">midhlaj@gmail.com</a>
+            <a href="mailto:midhlaj@gmail.com">midhlaj003@gmail.com</a>
           </div>
         </div>
         <div className="right">

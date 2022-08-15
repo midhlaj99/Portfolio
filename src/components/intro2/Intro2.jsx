@@ -18,7 +18,19 @@ function intro2() {
           environment.
         </p>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        {/* <div>
+          <div className='box-1'>
+            <p className='span-1'>2 years <br />Experiece</p>
+          </div>
+          <div className='box-1'>
+            <p className='span-1'>2 years <br />Experiece</p>
+          </div>
+          <div className='box-1'>
+            <p className='span-1'>2 years <br />Experiece</p>
+          </div>
+        </div> */}
+      </div>
     </div>
   )
 }

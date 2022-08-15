@@ -12,12 +12,21 @@ function Intro() {
             <h4>
               <Typewriter
                 options={{
-                  strings: ['React Developer','2+ years experience','JavaScript Developer','MERN stack'],
+                  strings: ['React Developer', 'JavaScript Developer', 'MERN stack', '2 years experience'],
                   autoStart: true,
                   loop: true,
                 }}
               />
             </h4>
+
+            <div className="btn-grp">
+              <a href="assets/midhlaj.pdf" download>
+               <button className="btn-1">Download CV</button>
+              </a>
+              <a href="#contact">
+                <button className="btn-2">Contact</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

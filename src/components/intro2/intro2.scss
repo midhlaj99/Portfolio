@@ -1,68 +1,87 @@
 @import "../../global.scss";
 
-.intro2{
+.intro2 {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .introshape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #45B4FF;
+    clip-path: polygon(63% 0, 100% 0, 100% 100%, 43% 100%); // https://bennettfeely.com/clippy/
+    height: 100%;
+    width: 100%;
+  }
+
+  .left {
+    width: 60%;
     display: flex;
-    padding: 20px;
-    background-color: white ;
-    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    @include mobile{
-        flex-direction: column;
-        justify-content: space-between;
+    @include mobile {
+      width: 100%;
+      z-index: 1;
+      // height: 100%;
+    }
+
+    h3 {
+      font-size: 40px;
+      width: 60%;
+
+      @include mobile {
+        font-size: 30px;
+        width: 90%;
       }
-
-    .introshape{
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-color: crimson;
-        clip-path: polygon(63% 0, 100% 0, 100% 100%, 43% 100%); // https://bennettfeely.com/clippy/
-        height: 100%;
-        width: 100%;
     }
 
-    .left{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    p {
+      font-size: 16px;
+      width: 60%;
+      margin-top: 10px;
 
-        @include mobile{
-            width: 100%;
-            z-index: 1;
-            height: 100%;
-          }
+      @include mobile {
+        font-size: 16px;
+        width: 90%;
+      }
+    }
+  }
 
-        h3{
-            font-size: 40px;
-            width: 60%;
+  .right {
+    width: 40%;
+    overflow: hidden;
+    z-index: 1;
 
-            @include mobile{
-                font-size: 30px;
-                width: 90%;
-              }
+    div {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .box-1 {
+        width: 120px;
+        height: 120px;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+
+        .span-1{
+          font-size: 40px;
         }
-        p{
-            font-size: 16px;
-            width: 60%;
-            margin-top: 10px;
+      }
+    }
 
-            @include mobile{
-                font-size: 16px;
-                width: 90%;
-              }
-        }
-    }
-    .right{
-        right: 40%;    
-        overflow: hidden;
-        z-index: 1;
-        display: flex;
-        align-items: flex-end;
-        
-        @include mobile{
-            display: none;
-          }
-    }
+    
+  }
 }
