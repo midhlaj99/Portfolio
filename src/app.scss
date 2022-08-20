@@ -1,5 +1,7 @@
 .app{
     height: 100vh;
+    background-color: black;
+    color: white;
     
     .section{
         width: 100%;
@@ -16,7 +18,6 @@
         }
 
         > *{
-            width: 100vw;
             height: calc(100vh - 70px);
             scroll-snap-align: start;
         }

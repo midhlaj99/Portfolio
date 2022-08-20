@@ -1,7 +1,26 @@
 @import "../../global.scss";
 
-.contact {
+.b-contact {
   position: relative;
+
+  .to-top{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: #45B4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: blink 2s infinite;
+    cursor: pointer;
+  }
+  @keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
 
   .c-bg {
     width: 20px;
@@ -17,7 +36,7 @@
     @include mobile {
       flex-direction: column;
       padding: 0px 50px;
-      height: 100%;
+      height: auto;
     }
 
     .c-left {
@@ -46,7 +65,7 @@
 
         a {
           text-decoration: none;
-          color: $mainColor;
+          color: white;
         }
       }
 
@@ -54,6 +73,21 @@
         width: 20px;
         height: 20px;
         margin-right: 20px;
+      }
+
+      .c-social{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        a{
+          text-decoration: none;
+          color: white;
+        }
+        
+        .social-ic{
+          cursor: pointer;
+        }
       }
     }
 

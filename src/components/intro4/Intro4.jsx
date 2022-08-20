@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Call, Home } from "@material-ui/icons";
+import { Mail, Call, Home, LinkedIn, GitHub, Instagram, ArrowUpward } from "@material-ui/icons";
 import "./intro4.scss";
 
 const Contact = () => {
@@ -33,7 +33,12 @@ const Contact = () => {
   }
 
   return (
-    <div className="contact" id="contact">
+    <div className="b-contact" id="contact">
+      <a href="#home">
+        <div className="to-top">
+          <ArrowUpward/>
+        </div>
+      </a>
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -50,6 +55,11 @@ const Contact = () => {
             <div className="c-info-item">
               <Home className="c-icon" />
               Calicut, Kerala
+            </div>
+            <div className="c-social">
+              <a href="https://www.linkedin.com/in/midhlaj-ap-172993199/" target="_blank"><LinkedIn className="social-ic"/></a>
+              <a href="https://github.com/midhlaj99" target="_blank"><GitHub className="social-ic"/></a>
+              <a href="https://www.instagram.com/mid_h_laj/" target="_blank"><Instagram className="social-ic"/></a>
             </div>
           </div>
         </div>

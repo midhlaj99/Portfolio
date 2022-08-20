@@ -17,20 +17,25 @@ function intro2() {
           and designing software in a test-driven
           environment.
         </p>
+        <div className="rounds-wrapper">
+          <div className="rounds-div">
+            <div className="rounds-circle">2</div>
+            <span>years </span>
+            <span>experience</span>
+          </div>
+          <div className="rounds-div">
+            <div className="rounds-circle">5+</div>
+            <span>project</span>
+            <span>experience</span>
+          </div>
+          <div className="rounds-div">
+            <div className="rounds-circle">2</div>
+            <span>companies</span>
+            <span>work</span>
+          </div>
+        </div>
       </div>
-      <div className="right">
-        {/* <div>
-          <div className='box-1'>
-            <p className='span-1'>2 years <br />Experiece</p>
-          </div>
-          <div className='box-1'>
-            <p className='span-1'>2 years <br />Experiece</p>
-          </div>
-          <div className='box-1'>
-            <p className='span-1'>2 years <br />Experiece</p>
-          </div>
-        </div> */}
-      </div>
+      <div className="right"></div>
     </div>
   )
 }

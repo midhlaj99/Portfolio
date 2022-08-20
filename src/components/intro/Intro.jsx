@@ -8,7 +8,7 @@ function Intro() {
         <div className="main_wrapper">
           <div className="wrapper">
             <h2>Hi there, I'm</h2>
-            <h1>Midhlaj ap</h1>
+            <h1>Midhlaj AP</h1>
             <h4>
               <Typewriter
                 options={{
@@ -32,6 +32,7 @@ function Intro() {
       </div>
 
       <div className="right">
+        {/* <div className="clip-shape"></div> */}
         <a href="#about">
           <img src="assets/down.png" alt="" />
         </a>

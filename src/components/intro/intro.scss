@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro {
-  background-color: white;
+  // background-color: white;
   display: flex;
 
   @include mobile {
@@ -78,6 +78,21 @@
   .right {
     flex: 1;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .clip-shape {
+      clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+      background-image: linear-gradient(to right, #45b4ff 0%, #f77457 100%);
+      width: 400px;
+      height: 400px;
+
+      @include mobile {
+        width: 200px;
+        height: 200px;
+      }
+    }
 
     a {
       position: absolute;
