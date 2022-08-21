@@ -1,6 +1,5 @@
 import React from 'react'
 import { Mail, Call } from "@material-ui/icons";
-
 import "./topbar.scss"
 
 function TopBar({ menuOpen, setMenuOpen }) {
@@ -10,7 +9,7 @@ function TopBar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <h3 className="logo">
-            Logo
+            MJ
           </h3>
           <div className="itemContainer">
             <Call className="icon" />
