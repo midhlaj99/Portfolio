@@ -6,7 +6,7 @@ import Intro2 from "./components/intro2/Intro2"
 import Intro3 from "./components/intro3/Intro3"
 import Intro4 from "./components/intro4/Intro4"
 import Menu from "./components/menu/Menu";
-
+import Portfolio from "./components/portfolio";
 import "./app.scss"
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Intro />
         <Intro2 />
         <Intro3 />
+        <Portfolio/>
         <Intro4 />
       </div>
     </div>

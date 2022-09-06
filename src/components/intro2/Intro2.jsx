@@ -20,7 +20,7 @@ function intro2() {
         <div className="rounds-wrapper">
           <div className="rounds-div">
             <div className="rounds-circle">2</div>
-            <span>years </span>
+            <span>years</span>
             <span>experience</span>
           </div>
           <div className="rounds-div">
@@ -31,7 +31,7 @@ function intro2() {
           <div className="rounds-div">
             <div className="rounds-circle">2</div>
             <span>companies</span>
-            <span>work</span>
+            <span>worked</span>
           </div>
         </div>
       </div>

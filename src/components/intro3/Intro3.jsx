@@ -103,7 +103,7 @@ export default function Intro3() {
         </div>
 
         <div className="container">
-          <h2>portfolio</h2>
+          <h2></h2>
           <div className="item">
             <h2></h2>
           </div>
